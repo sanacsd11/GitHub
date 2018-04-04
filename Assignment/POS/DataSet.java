@@ -1,3 +1,11 @@
+/**BCAS,CSD11, G.Sirisanath , JAVA , 30 Mar 2018 , 12:05:42.
+ * 
+ */
+
+/**
+ * @author sri
+ *
+ */
 public class DataSet{
 
 	public static void displayProduct(){//Display Product Data
@@ -51,6 +59,27 @@ public class DataSet{
 			//Print sales list
 			for (int j=0;j< sales.length;j++){
 				System.out.println(sales[j][0] + " | " + sales[j][1] + " | " + sales[j][2] + " | " + sales[j][3]);
+			}
+	}
+
+	public static void displayUser(){//Display Sales Data
+			String[][] users= new String[3][2];//create a array
+
+			//Push row no 1
+			users[0][0] = "001";
+			users[0][1] = "John Doe";
+
+			//Push row no 2
+			users[1][0] = "002";
+			users[1][1] = "Peter Stroke";
+
+			//Push row no 3
+			users[2][0] = "003";
+			users[2][1] = "James Roy";
+
+			//Print users list
+			for (int j=0;j< users.length;j++){
+				System.out.println(users[j][0] + " | " + users[j][1]);
 			}
 	}
 

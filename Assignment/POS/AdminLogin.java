@@ -1,3 +1,11 @@
+/**BCAS,CSD11, G.Sirisanath , JAVA , 30 Mar 2018 , 12:05:42.
+ * 
+ */
+
+/**
+ * @author sri
+ *
+ */
 import java.util.Scanner;// Import package for Input output
 
 public class AdminLogin{

@@ -1,3 +1,11 @@
+/**BCAS,CSD11, G.Sirisanath , JAVA , 30 Mar 2018 , 12:05:42.
+ * 
+ */
+
+/**
+ * @author sri
+ *
+ */
 import java.util.Scanner;
 
 public class Product{
@@ -15,16 +23,16 @@ public class Product{
 
 		for (int i=0;i < amount ;i++){//Looping for ask users need
 			System.out.print("Product ID: ");
-			products[i][0] = scan.nextLine();
+			products[i][0] = scan.next();
 
 			System.out.print("Product Name: ");
-			products[i][1] = scan.nextLine();
+			products[i][1] = scan.next();
 
 			System.out.print("Product Quantity: ");
-			products[i][2] = scan.nextLine();
+			products[i][2] = scan.next();
 
 			System.out.print("Product Price: ");
-			products[i][3] = scan.nextLine();
+			products[i][3] = scan.next();
 			System.out.println();
 			System.out.println("-------------------------");
 			System.out.println();

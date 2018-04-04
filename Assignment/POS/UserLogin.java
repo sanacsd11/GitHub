@@ -1,3 +1,11 @@
+/**BCAS,CSD11, G.Sirisanath , JAVA , 30 Mar 2018 , 12:05:42.
+ * 
+ */
+
+/**
+ * @author sri
+ *
+ */
 import java.util.Scanner;
 
 public class UserLogin{
@@ -28,7 +36,7 @@ public class UserLogin{
 	}
 
 	public static boolean validateLogin(String username,String password){
-		if(username.equals("admin") && password.equals("admin")){//Login validate
+		if(username.equals("bcas") && password.equals("sri")){//Login validate
 			System.out.print("Loading ");
 			for(int x=0;x<25;x++){
 				System.out.print(".");

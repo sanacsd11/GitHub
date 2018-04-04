@@ -1,12 +1,20 @@
-public class POS{//Main Class
-    public static void main(String args[]){//Main method
-        screen();//Calling Screen method
+/**BCAS,CSD11, G.Sirisanath , JAVA , 30 Mar 2018 , 12:05:42.
+ * 
+ */
 
-        UserLogin uLog = new UserLogin();//Create object to user login class
-        uLog.askLogin();//call ask login method in user login class
+/**
+ * @author sri
+ *
+ */
+public class POS{
+    public static void main(String args[]){
+        screen();
+
+        UserLogin uLog = new UserLogin();
+        uLog.askLogin();
     }
 
-    // Welcome text
+   
     public static void screen(){
 		System.out.println();
 		System.out.println("             Welcome to BCAS CSD 11");
